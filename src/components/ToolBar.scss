@@ -1,0 +1,15 @@
+@import '../css/colours';
+
+.container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    top: 3em;
+    background: $sideTools;
+    padding: 1em;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}

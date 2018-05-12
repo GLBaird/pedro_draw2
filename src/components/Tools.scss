@@ -1,0 +1,13 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    button {
+        margin-bottom: 1em;
+        font-size: 1em;
+        padding: .5em;
+        background: white;
+        &.selected {
+            background: yellowgreen;
+        }
+    }
+}
