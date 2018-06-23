@@ -1,14 +1,7 @@
 import React, { Component } from 'react';
-
 import PropTypes from 'prop-types';
-
 import styles from './Tools.scss';
-
-export const DrawingMode = {
-    Brush: 0,
-    Box: 1,
-    Circle: 2
-}
+import { DrawingMode } from './Canvas';
 
 class Tools extends Component {
 
